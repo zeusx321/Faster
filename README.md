@@ -1,78 +1,66 @@
 # 🚚 FASTER - Lightning Fast Logistics & Delivery Partner
 
 <p align="center">
-  <img src="assets/hero-img.svg" alt="FASTER Logo" width="150px">
+  <strong>A modern, responsive landing page for shipping, logistics, and supply chain management services.</strong>
 </p>
 
-<p align="center">
-  <strong>بوابة الخدمات اللوجستية والشحن السريع والذكي</strong>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
-  <img src="https://img.shields.io/badge/Bootstrap_5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap 5">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
-</p>
 
 ---
 
-## 📖 جدول المحتويات / Table of Contents
-1. [عن المشروع / About the Project](#-عن-المشروع--about-the-project)
-2. [المميزات الرئيسية / Key Features](#-المميزات-الرئيسية--key-features)
-3. [التقنيات المستخدمة / Technologies Used](#-التقنيات-المستخدمة--technologies-used)
-4. [هيكل المجلدات / Project Structure](#-هيكل-المجلدات--project-structure)
-5. [طريقة التشغيل / How to Run](#%EF%B8%8F-طريقة-التشغيل--how-to-run)
-6. [الرسوم المتحركة والتفاعل / Animations & Interactivity](#-الرسوم-المتحركة-والتفاعل--animations--interactivity)
+## 📖 Table of Contents
+1. [About the Project](#-about-the-project)
+2. [Key Features](#-key-features)
+3. [Technologies Used](#-technologies-used)
+4. [Project Structure](#-project-structure)
+5. [How to Run](#%EF%B8%8F-how-to-run)
+6. [Animations & Interactivity](#-animations--interactivity)
 
 ---
 
-## 🌟 عن المشروع / About the Project
+## 🌟 About the Project
 
-### (بالعربية)
-**FASTER** هو موقع تعريفي احترافي (Landing Page) متكامل الخدمات ومخصص لشركات الشحن والخدمات اللوجستية. يتميز الموقع بتصميم عصري جذاب وواجهة مستخدم متجاوبة تماماً مع شاشات الهواتف والأجهزة اللوحية والمكتبية. يوفر الموقع تجربة مستخدم سلسة بفضل استخدام الرسوم المتحركة المبنية على حركة التمرير (Scroll Animations) والتحكم الديناميكي بالقوائم (Scrollspy).
-
-### (English)
-**FASTER** is a professional, high-performance landing page designed for modern logistics, shipping, and supply chain companies. The website offers a premium user interface with complete responsiveness across all device sizes. It delivers an engaging user experience utilizing custom scroll-reveal animations and dynamic navigation tracking (Scrollspy) using vanilla JavaScript.
+**FASTER** is a professional, high-performance landing page designed for modern logistics, cargo, and supply chain companies. The website provides a premium, responsive user interface tailored to showcase shipping solutions, warehousing, local distribution, and client statistics. It integrates clean design aesthetics with smooth, scroll-based interactions to deliver an engaging user experience across all device sizes.
 
 ---
 
-## 🚀 المميزات الرئيسية / Key Features
+## 🚀 Key Features
 
-- 📱 **Fully Responsive:** متجاوب بالكامل مع كافة الشاشات والمنصات بفضل إطار العمل Bootstrap 5.
-- 🎨 **Modular Styling:** تم تقسيم وتنسيق ملفات الـ CSS بشكل منظم (ملف لكل قسم) لسهولة التعديل والتطوير المستقبلي.
-- ✨ **Scroll Reveal Animations:** رسوم متحركة مخصصة وجذابة تظهر بمجرد تمرير الصفحة للأسفل باستخدام تقنية `IntersectionObserver`.
-- 📍 **Scrollspy Navigation:** شريط تنقل ذكي يتفاعل مع موقع القارئ في الصفحة لتحديث العنصر النشط (Active Link) تلقائياً.
-- 🚚 **Comprehensive Sections:** يحتوي الموقع على كافة الأقسام المهمة للشركات:
-  - **الرئيسية (Home):** مع شريط بحث تفاعلي وإحصائيات سريعة للشركة.
-  - **من نحن (About Us):** لعرض رؤية الشركة وخدمات الدعم اللوجستي.
-  - **الخدمات (Services):** كروت تفصيلية تفاعلية لعرض التخزين والشحن وخدمات التجارة الإلكترونية.
-  - **المميزات (Features):** عرض تفصيلي مدعوم بالصور والأيقونات لشرح الشحن الصديق للبيئة، والربط البرمجي (API).
-  - **خطط الأسعار (Pricing):** جدول مقارنة أسعار وخطط الخدمة بتأثيرات hover جذابة.
-  - **اتصل بنا (Contact Us):** نموذج تواصل تفاعلي وبطاقة معلومات الاتصال ومواعيد العمل.
-  - **التذييل (Footer):** روابط سريعة، معلومات التواصل، وشبكات التواصل الاجتماعي.
-
----
-
-## 🛠️ التقنيات المستخدمة / Technologies Used
-
-* **HTML5:** لبناء هيكل الصفحة ودعم معايير الـ SEO (مثل استخدام `header`, `section`, `footer`).
-* **CSS3 (Vanilla):** لتنسيق وتصميم العناصر باستخدام متغيرات الألوان والتأثيرات الحديثة.
-* **Bootstrap 5:** لضمان سلاسة وسرعة البناء واستجابة الشاشات المتعددة (Grid System).
-* **Vanilla JavaScript:** لكتابة المنطق التفاعلي (Animations, Scrollspy, Header Effects) بدون أي مكتبات خارجية ثقيلة الوزن.
-* **Font Awesome 6:** للأيقونات الاحترافية في جميع الأقسام.
-* **Google Fonts (Open Sans):** لتحسين المظهر الجمالي للنصوص والخطوط.
+- 📱 **Fully Responsive:** Seamlessly adapts to mobile, tablet, and desktop screens using Bootstrap 5.
+- 🎨 **Modular Styling:** CSS files are organized in a component-based directory structure (one file per section) for easy maintainability.
+- ✨ **Scroll Reveal Animations:** Interactive slide-ins and fades triggered dynamically as the user scrolls, built using the `IntersectionObserver` API.
+- 📍 **Scrollspy Navigation:** Header links update automatically in real-time to highlight the active section as the user scrolls.
+- 🚚 **Comprehensive Layout:** Includes all necessary sections for a business landing page:
+  - **Hero Section:** High-impact heading, client statistics, and a location/zip search bar.
+  - **Quick Services Overview:** Mini-cards highlighting express delivery, warehousing, and local distribution.
+  - **About Section:** Rich company history, key values, and support services.
+  - **Detailed Services Grid:** Rich, hover-responsive cards detailing various logistical workflows.
+  - **Call to Action (CTA):** Encouraging lead capture and customer acquisition.
+  - **Features Showcase:** Deep dive into eco-friendly transportation, customs clearing, climate-controlled cargo, and API integrations.
+  - **Interactive Pricing:** A multi-tier subscription grid with elegant design patterns.
+  - **Contact Form:** Interactive feedback form with integrated location, email, and phone contact cards.
+  - **Footer:** Social media links, copyright notice, legal page links, and directory short-links.
 
 ---
 
-## 📂 هيكل المجلدات / Project Structure
+## 🛠️ Technologies Used
+
+* **HTML5:** Semantic architecture to ensure structure and search engine optimization (SEO) compliance.
+* **CSS3 (Vanilla):** Custom layout designs, layout alignments, gradients, and custom animations.
+* **Bootstrap 5:** Utility classes and grids to support responsive design and fluid card structures.
+* **Vanilla JavaScript:** High-performance DOM manipulation, Intersection Observers, and interactive scroll spy tracking.
+* **Font Awesome 6:** Modern vector icon assets.
+* **Google Fonts (Open Sans):** Premium typography.
+
+---
+
+## 📂 Project Structure
 
 ```bash
 project2/
-├── assets/                 # مجلد الصور والأيقونات (Images, Backgrounds, SVG icons)
-├── style/                  # مجلد التنسيقات (مقسم لتنظيم الكود)
+├── assets/                 # Image, background, and icon assets (SVG, PNG, JPG)
+├── style/                  # Modular stylesheets
 │   ├── about.css
-│   ├── animations.css      # يحتوي على كود الرسوم التفاعلية (reveal classes)
+│   ├── animations.css      # Core scroll animation keyframes and classes
 │   ├── contact.css
 │   ├── footer.css
 │   ├── header.css
@@ -82,34 +70,29 @@ project2/
 │   ├── quote.css
 │   ├── ser.css
 │   ├── serv.css
-├── index.html              # ملف الصفحة الرئيسي
-├── app.js                  # ملف الجافا سكريبت التفاعلي
-└── README.md               # ملف الوصف التعريفي للمشروع (الملف الحالي)
+├── index.html              # Main HTML markup entry point
+├── app.js                  # Global JavaScript logical actions
+└── README.md               # Project documentation (this file)
 ```
 
 ---
 
-## ⚙️ طريقة التشغيل / How to Run
+## ⚙️ How to Run
 
-### محلياً (Locally)
-1. قم بتحميل ملفات المشروع أو عمل `clone` للمستودع:
+1. Clone or download the repository:
    ```bash
    git clone <repository-url>
    ```
-2. قم بفتح المجلد الخاص بالمشروع.
-3. افتح ملف `index.html` في أي متصفح إنترنت (مثل Chrome, Firefox, Edge) مباشرة أو عبر إضافة **Live Server** في VS Code لتجربة تطوير أفضل.
+2. Navigate to the project root folder.
+3. Open `index.html` directly in any web browser, or launch it with a local development server like VS Code's **Live Server** plugin.
 
 ---
 
-## 💫 الرسوم المتحركة والتفاعل / Animations & Interactivity
+## 💫 Animations & Interactivity
 
-تم تطبيق نظام حركة ذكي وخفيف يعتمد على الـ **JavaScript IntersectionObserver API**، والذي يقوم بـ:
-1. مراقبة تدرج ظهور العناصر على الشاشة.
-2. إضافة الكلاس `active` للعناصر التي تحمل الكلاسات (`reveal`, `reveal-left`, `reveal-right`) لتبدأ حركتها بمجرد دخولها نافذة العرض (Viewport).
-3. تغيير مظهر شريط التنقل (Header) وإضافة خلفية شبه شفافة داكنة (Glassmorphism) بمجرد تحريك الصفحة للأسفل (`scrolled` class).
+The site uses a native JavaScript implementation of the **IntersectionObserver API** in [app.js](file:///d:/Front-End\NTI\project2\app.js) to trigger styles:
+1. Target elements with classes `.reveal`, `.reveal-left`, or `.reveal-right` are observed.
+2. Once they cross the viewport threshold (15% visibility), the `.active` class is added, triggering CSS transition styles defined in [animations.css](file:///d:/Front-End\NTI\project2\style/animations.css).
+3. The `<header>` element receives a `.scrolled` class when scrolling past `50px` to apply a premium, semi-transparent frosted background (glassmorphism).
 
 ---
-
-<p align="center">
-  صنع بكل حب 💻 لتقديم تجربة شحن لوجستية ذكية وسريعة.
-</p>
