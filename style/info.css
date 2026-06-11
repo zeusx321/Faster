@@ -1,0 +1,41 @@
+.section {
+      padding: 60px 0;
+      background-color: #f9f9f9;
+    }
+    .section img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    .section h2 {
+      font-weight: 700;
+      color: #002b80;
+    }
+    .lead {
+      font-style: italic;
+      font-weight: normal;
+      font-size: 15px;
+    }
+    .section ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .section ul li::before {
+      content: "✔";
+      color: #002b80;
+      margin-right: 10px;
+    }
+
+    .fea-img-div img{
+        width: 90%;
+    }
+
+    .main-h4-fea{
+        font-weight: bold;
+        color: #002b80;
+    }
+
+    ul li i.fa-circle-check {
+        font-size: 15px !important;
+        color: #0d42ff !important;
+        vertical-align: middle;
+    }

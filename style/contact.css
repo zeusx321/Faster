@@ -1,0 +1,112 @@
+/* Contact Section Styles */
+.contact-section {
+    padding: 80px 0;
+    background-color: #f8fafc;
+}
+
+.contact-title {
+    position: relative;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.contact-title h2 {
+    font-weight: bold;
+    color: #001973;
+    margin: 0;
+}
+
+.contact-title::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: #0d42ff;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.contact-info-card {
+    background: white;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+    height: 100%;
+}
+
+.info-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 25px;
+}
+
+.info-item:last-child {
+    margin-bottom: 0;
+}
+
+.info-icon {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(13, 66, 255, 0.08);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    color: #0d42ff;
+    font-size: 20px;
+    flex-shrink: 0;
+    transition: all 0.3s ease;
+}
+
+
+.info-content h5 {
+    font-weight: 700;
+    color: #0e1d34;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.info-content p {
+    color: #475569;
+    font-size: 14px;
+    margin: 0;
+}
+
+.contact-form-card {
+    background: white;
+    border-radius: 12px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+}
+
+.contact-form-card .form-control {
+    border: 1px solid #e2e8f0;
+    padding: 12px 18px;
+    font-size: 14px;
+    border-radius: 8px;
+    color: #0f172a;
+    transition: all 0.3s ease;
+}
+
+.contact-form-card .form-control:focus {
+    border-color: #0d42ff;
+    box-shadow: 0 0 0 3px rgba(13, 66, 255, 0.15);
+    outline: none;
+}
+
+.contact-form-card textarea.form-control {
+    resize: none;
+}
+
+.contact-form-card button {
+    background-color: #0d42ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 14px 30px;
+    font-weight: 600;
+    font-size: 15px;
+    width: 100%;
+}

@@ -1,0 +1,96 @@
+/* Smooth scroll behavior for the entire document */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Scroll offset to prevent the fixed header (80px height) from overlapping section titles */
+section, [id] {
+    scroll-margin-top: 80px;
+}
+
+/* --- Button Animations --- */
+button, 
+.btn, 
+.btn-buy, 
+.search-box button, 
+.header-but-div button,
+.quote-div button {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: all 0.35s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+}
+
+button:hover, 
+.btn:hover, 
+.btn-buy:hover, 
+.search-box button:hover, 
+.header-but-div button:hover,
+.quote-div button:hover {
+    transform: translateY(-3px) scale(1.03);
+    box-shadow: 0 8px 20px rgba(13, 66, 255, 0.25) !important;
+}
+
+button:active, 
+.btn:active, 
+.btn-buy:active,
+.search-box button:active, 
+.header-but-div button:active,
+.quote-div button:active {
+    transform: translateY(-1px) scale(0.98);
+    box-shadow: 0 4px 10px rgba(13, 66, 255, 0.15) !important;
+}
+
+/* Call to Action Button specific hover */
+.quote-div button:hover {
+    background-color: white !important;
+    color: #0e1d34 !important;
+    box-shadow: 0 8px 25px rgba(255, 255, 255, 0.3) !important;
+    border-color: white !important;
+}
+
+/* Buy buttons specific hover */
+.btn-outline-primary:hover {
+    background-color: #2563eb !important;
+    color: white !important;
+}
+
+/* --- Scroll Reveal Animations --- */
+.reveal {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s cubic-bezier(0.25, 1, 0.5, 1), 
+                transform 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+    will-change: transform, opacity;
+}
+
+.reveal-left {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: opacity 0.8s cubic-bezier(0.25, 1, 0.5, 1), 
+                transform 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+    will-change: transform, opacity;
+}
+
+.reveal-right {
+    opacity: 0;
+    transform: translateX(50px);
+    transition: opacity 0.8s cubic-bezier(0.25, 1, 0.5, 1), 
+                transform 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+    will-change: transform, opacity;
+}
+
+/* Activated states triggered by IntersectionObserver in app.js */
+.reveal.active,
+.reveal-left.active,
+.reveal-right.active {
+    opacity: 1;
+    transform: translate(0) !important;
+}
+
+/* Staggered transition delays for lists, grids, cards */
+.delay-100 { transition-delay: 0.1s; }
+.delay-200 { transition-delay: 0.2s; }
+.delay-300 { transition-delay: 0.3s; }
+.delay-400 { transition-delay: 0.4s; }
+.delay-500 { transition-delay: 0.5s; }

@@ -1,0 +1,85 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open Sans", sans-serif;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding: 0 50px;
+    background-color: transparent;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+header.scrolled {
+    background-color: #0e1d34f0;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(10px);
+}
+
+.header-right-part{
+    display: flex;
+    flex: 1;
+    justify-content: end;
+}
+
+.header-left-part h1{
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.header-left-part{
+    margin-left: 20px;
+}
+
+nav{
+    width: 710px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+ul{
+    display: flex;
+}
+
+.header-right-part a {
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+.header-right-part a li {
+    color: rgb(183, 183, 183);
+    font-size: 14px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.header-right-part a:hover li,
+.header-right-part a.active li {
+    color: white;
+}
+
+.header-but-div button{
+    width: 125px;
+    height: 40px;
+    color: white;
+    background-color: #0d42ff;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 600;
+}

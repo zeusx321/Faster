@@ -1,0 +1,23 @@
+.about-p h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #001f8d;
+}
+
+.about-p p{
+    font-size: 14px;
+}
+
+.fa-solid{
+    font-size: 38px;
+    color: #0d42ff;
+}
+
+.about-p-1{
+    color: #19335c;
+    font-weight: bold;
+}
+
+.about-p-2{
+    font-size: 14px;
+}

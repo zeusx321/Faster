@@ -1,0 +1,47 @@
+.pricing-card {
+      border-radius: 12px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+      padding: 40px 30px;
+      transition: 0.3s;
+    }
+    .pricing-card.active {
+        border-top: 3px solid #2563eb;
+    }
+    .price {
+      font-size: 2.75rem;
+      color: #2563eb;
+    }
+    .plan-name {
+      font-weight: 600;
+      font-size: 1.25rem;
+      margin-bottom: 15px;
+    }
+    .feature {
+      font-size: 0.95rem;
+      margin: 10px 0;
+    }
+    .feature i {
+      margin-right: 10px;
+    }
+    .feature.unavailable {
+      color: #cbd5e1;
+      text-decoration: line-through;
+    }
+    .btn-buy {
+      margin-top: 30px;
+      padding: 10px 30px;
+      font-weight: 500;
+      border-radius: 6px;
+    }
+    .btn-outline-primary {
+      border-color: #2563eb;
+      color: #2563eb;
+    }
+    .btn-outline-primary:hover {
+      background-color: #2563eb;
+      color: white;
+    }
+    .btn-primary {
+      background-color: #2563eb;
+      border: none;
+    }

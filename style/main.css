@@ -1,0 +1,124 @@
+.main-section{
+    min-height: 780px;
+    height: auto;
+    background-color: #0e1d34;
+    background-image: url("../assets/hero-bg.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.right-main-part img{
+    width: 75%;
+}
+
+.grid-main{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.main-p{
+    width: 80%;
+}
+
+.main-p h2, .main-p p{
+    color: white;
+}
+
+.main-p h2{
+    font-size: 40px;
+    width: 90%;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.main-p p{
+    margin-bottom: 30px; 
+    color: rgb(202, 202, 202);
+    font-size: 14px;
+}
+
+.grid-main p {
+    color: white;
+    margin: 0;
+}
+
+.grid-main p:not(.after-p-main) {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #cbd5e1;
+}
+
+.grid-main div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.after-p-main {
+    font-size: 27px;
+    font-weight: bold;
+    margin: 5px 0 0 0;
+    position: relative;
+    padding-bottom: 15px;
+    color: white;
+    line-height: 1.2;
+}
+
+.after-p-main::after {
+    content: "";
+    width: 18px;
+    height: 3px;
+    position: absolute;
+    background-color: #0d42ff;
+    bottom: 4px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.left-main-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.search-box {
+  display: flex;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-box input {
+  border: none;
+  padding: 21px 20px;
+  font-size: 16px;
+  outline: none;
+  flex: 1;
+}
+
+.search-box button {
+  background-color: #0050ff;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-box button:hover {
+  background-color: #003fcc;
+}
